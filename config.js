@@ -80,7 +80,7 @@ global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mere
 global.eror = '_*Terjadi Kesalahan*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱' //change the watermark (beberapa harus manual)
+global.watermark = '\n𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱\n' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg'//thumbnail
