@@ -8,10 +8,10 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar ${conn.getName(m.sender)}.17*`
   let [_, name, splitter, age] = text.match(Reg)
   let totalreg = Object.keys(global.db.data.users).length
-  if (!name) throw 'Nama tidak boleh kosong!'
-  if (!age) throw 'Umur tidak boleh kosong!'
-  if (age < 13) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 13 Ke Atas*'
-  if (age > 30) throw 'Maaf, Anda terlalu tua.'
+  if (!name) throw '*Nama ga boleh kosong*'
+  if (!age) throw '*Umur ga boleh kosong*'
+  if (age < 9) throw 'Maaf, Anda belum bisa mendaftar.\n*Minimal umur 9 Ke Atas*'
+  if (age > 99999) throw 'Maaf, Anda terlalu tua.'
   user.name = name
   user.age = parseInt(age)
   user.regTime = + new Date
