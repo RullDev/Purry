@@ -11,8 +11,8 @@ let handler = async (m, { conn }) => {
     let str = `
 ╭═════════════════
 ║╭─❉ [𝐈𝐍𝐅𝐎𝐁𝐎𝐓] ❉───
-║│➸ Nama Bot: LynXzy
-║│➸ Nama Owner: LanXzy
+║│➸ Nama Bot: One Bot
+║│➸ Nama Owner: David
 ║│➸ Tanggal Pembuatan: Lupa gw
 ║│➸ Bahasa yang di gunakan: Nodejs (JS)
 ║╰───────────────
