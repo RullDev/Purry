@@ -37,7 +37,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     conn.on('CB:action,,call', conn.onCall)
     conn.regenerateQRIntervalMs = null
     conn.connect().then(async ({ user }) => {
-      parent.reply(m.chat, 'Berhasil tersambung dengan WhatsApp - mu.\n*NOTE: Ini cuma numpang*\n' + JSON.stringify(user, null, 2), m)
+      parent.reply(m.chat, 'Berhasil terhubung dengan WhatsApp - mu.\n*NOTE: Ini cuma numpang*\n' + JSON.stringify(user, null, 2), m)
       if (auth) return
       await parent.sendMessage(user.jid, `Kamu bisa login tanpa qr dengan pesan dibawah ini. untuk mendapatkan kode lengkapnya, silahkan kirim *${usedPrefix}getcode* untuk mendapatkan kode yang akurat`, MessageType.extendedText)
       parent.sendMessage(user.jid, `${usedPrefix + command} ${Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString('base64')}`, MessageType.extendedText)
@@ -55,7 +55,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         try {
           if (conn.state != 'close') return
           if (conn.user && conn.user.jid)
-            parent.sendMessage(conn.user.jid, `Koneksi terputus...`, MessageType.extendedText)
+            parent.sendMessage(conn.user.jid, `*_Sambungan terputus.._*`, MessageType.extendedText)
           let i = global.conns.indexOf(conn)
           if (i < 0) return
           delete global.conns[i]
@@ -70,9 +70,9 @@ handler.help = ['jadibot']
 handler.tags = ['jadibot']
 
 handler.command = /^jadibot$/i
-handler.premium = false
+handler.premium = true
 handler.private = true
 
-handler.limit = 5
+handler.limit = 1234567890
 
 module.exports = handler
