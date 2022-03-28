@@ -11,11 +11,10 @@ let handler = async (m, { conn }) => {
     let str = `
 ╭═════════════════
 ║╭─❉ [𝐈𝐍𝐅𝐎𝐁𝐎𝐓] ❉───
-║│➸ NameBot: LynXzy
-║│➸ Main Owner: LanXzy
-║│➸ Operated Since: Lupa gw
-║│➸ Language Used: Nodejs (JS)
-║│➸ Server: Heroku
+║│➸ Nama Bot: LynXzy
+║│➸ Nama Owner: LanXzy
+║│➸ Tanggal Pembuatan: Lupa gw
+║│➸ Bahasa yang di gunakan: Nodejs (JS)
 ║╰───────────────
 ╰════════════════
 
