@@ -37,7 +37,7 @@ handler.all = async function (m, { isBlocked }) {
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ Pulsa
 ║- 082128475388 ( Pulsa Telkomsel )
-╠═〘 LynXzy 〙 ═`.trim(), '𝗢𝗻𝗲 𝗕𝗼𝘁', 'Pemilik\nBot', '#viadigi', 'Ga jadi deh..', 'gajadi', m)
+╠═〘 One Botz 〙 ═`.trim(), '𝗢𝗻𝗲 𝗕𝗼𝘁', 'Pemilik\nBot', '#owner', 'Ga jadi deh..', 'gajadi', m)
 }
 
     // salam
