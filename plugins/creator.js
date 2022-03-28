@@ -8,7 +8,7 @@ remoteJid: 'status@broadcast'
 },
 message: {
 locationMessage: {
-name: '©LynXzy🥀',
+name: 'Ini Nomor Orang',
 jpegThumbnail: fs.readFileSync('./src/IMG-20220322-WA0026.jpg')
   }
  }
@@ -17,7 +17,7 @@ let list = []
   for (let i of owner.map(v => v + '@s.whatsapp.net')) {
   list.push({
             "displayName": this.getName(i),
-            "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${this.getName(i)}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+            "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${this.getName(i)}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ini Nomor Orang\nEND:VCARD`
           })
   }
         test = await this.sendMessage(m.chat, {
@@ -30,8 +30,8 @@ let list = []
 ]
 const buttonsMessage = {
     contentText: `
-Donasi/Sewa? Chat Owner
-`.trim(),    footerText: ``,
+Ini adalah *Owner, Pemilik Bot*. Jadi jangan kira ini bot, itu nomor manusia.
+`.trim(),    footerText: `~~~~~`,
     buttons: buttons,
   headerType: 'EMPTY'
 }
