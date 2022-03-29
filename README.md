@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/809410340f33f15544905.png" alt="LynnXzy🤸" width="200"/>
 
 
-<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Created+By+LynXzy+Aowkwowkwkwkwk" alt="Lexxy Official" /> </a> </p>
+<p align="center"> <a href="https://Lexxy24.github.io"> <img src="https://readme-typing-svg.herokuapp.com?size=15&width=280&lines=Created+By+David+Aowkwowkwkwkwk" alt="Lexxy Official" /> </a> </p>
 <p align="center">
 <a href="#"><img title="Botz Lyn" src="https://img.shields.io/badge/GANTI SESSIONNYA DULU SEBELUM PAKAI-red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
