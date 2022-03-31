@@ -32,10 +32,10 @@ const defaultMenu = {
 ╰════════════════════
 %readmore`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
-  body: '┃➸ %cmd %islimit %isPremium',
+  body: '┃ ✾ %cmd %islimit %isPremium',
   footer: '┗━ꕥ',
   after: `
-*%OneBot@^3.76*
+*OneBot@^4.01*
 ${'```%npmdesc```'}
 `,
 }
