@@ -2,10 +2,10 @@ let fs = require('fs')
 let handler  = async (m, { conn, usedPrefix }) => {
 prep = conn.prepareMessageFromContent(m.chat, { orderMessage: { 
 itemCount: 999999999999, status: 1,
-message: `AwogAwogAwog`,
+message: `Pesanan Datang!`,
 orderTitle: 'B',
 sellerJid: '0@s.whatsapp.net',
-thumbnail: fs.readFileSync('./src/RadBotZ.jpg')
+thumbnail: fs.readFileSync('./src/One.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
 }
