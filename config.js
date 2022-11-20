@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['6282160268332', '6282128475388','0'] // Letakan nomor kamu disini
+global.owner = ['6287753812345', '6287753812675','0'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -42,12 +42,12 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = 'WhatsApp'
-global.author = '2.22.3.77'
+global.author = 'RullBOT'
 
 global.wait = '*「 ⏱️ 」Harap tunggu...*'
 global.eror = '*「❗」Terjadi Kesalahan*'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning&text='
-global.watermark = '𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 𝗗𝗮𝘃𝗶𝗱' //change the watermark 
+global.watermark = '𝗢𝗻𝗲 𝗕𝗼𝘁 𝗯𝘆 KhrlMstfa' //change the watermark 
 global.image = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/8862875cbcfdfe32e5103.jpg'
 
